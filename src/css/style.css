@@ -39,7 +39,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .bx-pic-avatar{
-    width: 50px;
+    width: 80px;
     border-radius: 50%;
     margin-bottom: 5px;
 }
@@ -51,7 +51,7 @@ body{
     border-radius: 50%;
 }
 .name{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     color:  var(--White);
     margin-bottom: 10px;
@@ -76,11 +76,11 @@ body{
 }
 .redes{
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     background-color: var(--Grey);
     color: var(--White);
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 16px;
     box-shadow: rgba(41, 41, 41, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     transition: 0.8s all;
     font-weight: 500;
@@ -100,27 +100,3 @@ body{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
-@media only screen and (max-width:1000px){
-    .bx-pic-avatar{
-        width: 80px;
-        border-radius: 50%;
-        margin-bottom: 5px;
-    }
-    .name{
-        font-size: 24px;
-
-    }
-    .city{
-        font-size: 14px;
-      
-    }
-    .person-description{
-        font-size: 12px;
-    }
-    .redes{
-        font-size: 14px;
-    }
-    .attribution {
-        font-size: 16px;
-      }
-}
