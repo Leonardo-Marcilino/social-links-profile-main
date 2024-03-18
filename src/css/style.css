@@ -1,6 +1,6 @@
 @font-face {
     font-family: inter;
-    src: url("/src/assets/fonts/Inter-VariableFont_slnt.ttf");
+    src: url("../src/assets/fonts/Inter-VariableFont_slnt.ttf");
 }
 :root{
     --Green: hsl(75, 94%, 57%);
